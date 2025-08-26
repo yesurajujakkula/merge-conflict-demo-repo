@@ -6,6 +6,8 @@ app=Flask(__name__)
 
 @app.route('/',methods=['GET'])
 def home():
+    # this is the for the developer1 code changes
+    list1 = [1,2,3,5,6,7]
     return "Hello World"
 
 
