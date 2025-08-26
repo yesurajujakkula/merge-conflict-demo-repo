@@ -6,7 +6,9 @@ app=Flask(__name__)
 
 @app.route('/',methods=['GET'])
 def home():
-    return "Hello World"
+    # this is the code changes for the developer b
+    list2 = [2837,873246,987431]
+    return "Hello World developerb"
 
 
 
